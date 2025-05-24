@@ -86,8 +86,14 @@ puppeteer.use(StealthPlugin());
           
             // Define claim messages inside browser context
             const serverClaimMessages = {
-              "01JDPY161J6H6B1KBV74QWKCDM": () => gtn(), // BlackJack Server
-              "01JDKZ9Y7AEPQQDA7BVQA10DZ7": () => gtn(), // Test Server: function that generates a new letter
+              "01JDKH82R0RHG2VF9YDWKEFHC5": "/claim", 
+              "01JDKH7HVTBZ2SDTYMTESVDEZA": "/claim", 
+              "01JDKRRS1JA2N0114C24PJ1C09": "/claim",
+              "01JDKJ2C7GRNTP9KCQZJWWQ6S0": "/claim",
+              "01JDKZ9Y7AEPQQDA7BVQA10DZ7": () => gtn(),
+              "01JDRTWWDQ7VM1ZEEKP58EBPQA": () => gtn(),
+              "01JDKAFHS1W2BTPSS9YDB6WNEP": () => gra(),
+              "01JDPY161J6H6B1KBV74QWKCDM": () => gra() 
             };
 
 
